@@ -31,4 +31,11 @@ func main() {
 	fmt.Println(msg)
 	fmt.Println("Friday =", Friday)
 	fmt.Println("Zero bool =", active)
+
+	if age > 18 {
+		fmt.Println("Adult")
+	} else {
+		fmt.Println("Minor")
+	}
+
 }
